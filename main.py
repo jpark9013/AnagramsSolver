@@ -27,12 +27,12 @@ def find(asc=True):
 if __name__ == "__main__":
     while True:
         try:
-            words = find()
+            out = find()
         except KeyboardInterrupt:
             print("Exiting...")
             sys.exit(0)
 
         print("-------------")
-        for word in words:
+        for word in out:
             print(word)
         print("-------------")
